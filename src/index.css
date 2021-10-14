@@ -1,22 +1,32 @@
-.grid {
-    display: table;
-  }
-  
-  .grid-row {
-    display: table-row;
-  }
-  
-  .tile {
-    display: table-cell;
-    background-color: #999;
-    padding: 10px;
-    border: 1px solid white;
-  }
-  
-  .tile.snake {
-    background-color: #333;
-  }
-  
-  .tile.food {
-    background-color: #ff0000;
-  }
+.xGrid {
+  display: table;
+  border: 3px solid rgb(1, 70, 1);
+  background-color: rgb(13, 141, 13);
+  margin: auto;
+  height: 900px;
+  width: 900px;
+}
+
+.yGrid {
+  display: table-row;
+}
+
+.tile {
+  display: table-cell;
+  border:2px solid rgb(66, 194, 66);
+  height: 128px;
+  width: 128px;
+  text-align: center;
+  line-height: 128px 
+}
+
+.tile.food {
+  background-image: url("https://madeinkaszebe.com.pl/zdjecia/produkt/1038/815/0x992/2m/product_nb.jpg");
+  background-size: cover;
+}
+
+.tile.snake {
+  background-image: url("https://i.imgur.com/LBTva32.png");
+  background-size: cover;
+}
+h1 {text-align: center;}
